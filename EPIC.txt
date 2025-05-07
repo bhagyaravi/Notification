@@ -1,19 +1,24 @@
-NatWest's retail customer onboarding process typically involves online verification of identity and address, often using liveness detection and biometric authentication. This ensures security and compliance with KYC and AML regulations. The process can also include providing a user guide, personalizing the experience for existing customers, and ensuring data security and privacy.
-Here's a more detailed look:
-Digital Verification:
-NatWest utilizes digital tools for identity verification, including liveness detection (biometric authentication) and document verification (proof of identity and address).
-KYC and AML Compliance:
-The onboarding process is designed to adhere to Know Your Customer (KYC) and Anti-Money Laundering (AML) regulations, which require collecting, verifying, and analyzing customer information to prevent financial crimes.
-Customer Experience:
-NatWest aims to provide a seamless onboarding experience, potentially including a user guide, personalization for existing customers, and clear communication of the process.
-Security and Privacy:
-Ensuring user data security and privacy is a key aspect of the onboarding process.
-Remote Onboarding:
-NatWest utilizes remote onboarding techniques, allowing customers to complete the process without a physical visit to a branch.
-Onboarding Advisor Role:
-NatWest has a dedicated role, "Onboarding Advisor," to assist with the onboarding process, including reviewing and verifying documents, providing customer service, and ensuring accurate information.
-Data Collection and Verification:
-The onboarding process includes collecting relevant customer data, verifying it, and ensuring accuracy and completeness.
-Account Opening:
-Once the verification process is complete and approved, the customer's account is opened, and they can begin using NatWest's services. 
+As User, I need to be able to order iPhone 16 on T-mobile web, and should be able to track the order status, add shipping address for delivery. 
 
+
+WHEN the Order is checked for availability in the inventory, the order is confirmed.
+
+
+THEN  receipt is triggered and sent to the client 
+
+
+consumptionNote: this is applicable to the following and must be tested -
+
+
+1. Serialized devices - pSIM
+
+
+2. Serialized devices - eSIM
+
+
+3. Accessory only orders
+
+
+4. HSIAssumptions:
+
+Owner: Owner_Name
