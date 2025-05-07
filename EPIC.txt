@@ -1,24 +1,13 @@
 As User, I need to be able to order iPhone 16 on T-mobile web, and should be able to track the order status, add shipping address for delivery. 
 
-
 WHEN the Order is checked for availability in the inventory, the order is confirmed.
+THEN  receipt is triggered and sent to the client consumption
 
-
-THEN  receipt is triggered and sent to the client 
-
-
-consumptionNote: this is applicable to the following and must be tested -
-
+Note: this applies to the following and must be tested -
 
 1. Serialized devices - pSIM
-
-
 2. Serialized devices - eSIM
-
-
 3. Accessory only orders
-
-
 4. HSIAssumptions:
 
 Owner: Owner_Name
